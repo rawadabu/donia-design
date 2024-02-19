@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: "#FCF8F1";
+}
+
 @keyframes scrollLogo {
   0% {
     transform: translateX(0);
@@ -9,4 +16,9 @@
   100% {
     transform: translateX(-50%);
   }
+}
+
+[data-aos="fade-up"] {
+  transform: translateZ(0) rotateX(50deg);
+  transition: transform 0.5s ease-in-out;
 }
