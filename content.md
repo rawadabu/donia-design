@@ -1,3 +1,15 @@
+# Sketch Layout
+
+- Logo + Navigation.
+- Hero
+- About me
+- Featured in logos
+- How it works?
+- Tertimonials and Gallery
+- Pricing + Features
+- CTA
+- Footer
+
 GRAPHIC DESIGNER
 
 Bringing creative visions to life through visual storytelling, innovative design concepts, and a passion for artistic expression.

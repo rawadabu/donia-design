@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
     <!-- RAJDHANI FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,184 +25,364 @@
     <title>Donia Design</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="header-text-box">
-          <h1>GRAPHIC DESIGNER</h1>
-          <p class="header-text">
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          alt="Donia Design Logo"
+          src="img/logos/donia_logo.png"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">How it works</a></li>
+          <li><a class="main-nav-link" href="#">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- HERO SECTION -->
+    <section class="section-hero">
+      <div class="hero">
+        <div class="section-hero-text-box">
+          <h1>
+            A dedicated Graphic Designer with a passion for transforming ideas
+            into visually stunning creations
+          </h1>
+          <p class="section-hero-text">
             Bringing creative visions to life through visual storytelling,
             innovative design concepts, and a passion for artistic expression.
           </p>
-          <a class="btn btn--big" href="#">Learn more</a>
+
+          <a class="btn btn--big margin-right-sm" href="#"
+            >Start subscription</a
+          >
+          <a class="btn btn--big btn-full" href="#">Learn more &darr;</a>
         </div>
-        <img src="hero.jpg" alt="Photo" />
-      </header>
 
-      <section>
-        <h2>What makes our work special</h2>
-        <div class="grid-3-cols">
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="features-icon"
-              fill="#000000"
-              viewBox="0 0 256 256"
-            >
-              <path
-                d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM88,160a8,8,0,1,1-8,8A8,8,0,0,1,88,160ZM48,48H80v97.38a24,24,0,1,0,16,0V115.31l48,48V208H48ZM208,208H160V160a8,8,0,0,0-2.34-5.66L96,92.69V48h32V72a8,8,0,0,0,2.34,5.66l16,16A23.74,23.74,0,0,0,144,104a24,24,0,1,0,24-24,23.74,23.74,0,0,0-10.34,2.35L144,68.69V48h64V208ZM168,96a8,8,0,1,1-8,8A8,8,0,0,1,168,96Z"
-              ></path>
-            </svg>
-            <p class="features-title"><strong>Branding</strong></p>
-            <p class="features-text">
-              Build a strong brand identity with our comprehensive branding
-              services. We offer strategic brand development to set your
-              business apart.
-            </p>
-          </div>
-
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="features-icon"
-              fill="#000000"
-              viewBox="0 0 256 256"
-            >
-              <path
-                d="M192,96a40,40,0,0,0-24-72H96A40,40,0,0,0,72,96a40,40,0,0,0,1.37,65A44,44,0,1,0,144,196V160a40,40,0,1,0,48-64Zm0-32a24,24,0,0,1-24,24H144V40h24A24,24,0,0,1,192,64ZM72,64A24,24,0,0,1,96,40h32V88H96A24,24,0,0,1,72,64Zm24,88a24,24,0,0,1,0-48h32v48H96Zm32,44a28,28,0,1,1-28-28h28Zm40-44a24,24,0,1,1,24-24A24,24,0,0,1,168,152Z"
-              ></path>
-            </svg>
-            <p class="features-title">
-              <strong>Logo Design</strong>
-            </p>
-            <p class="features-text">
-              We specialize in creating unique and impactful logos that
-              represent your brand's identity.
-            </p>
-          </div>
-
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="features-icon"
-              fill="#000000"
-              viewBox="0 0 256 256"
-            >
-              <path
-                d="M223.68,66.15,135.68,18a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32l80.34,44-29.77,16.3-80.35-44ZM128,120,47.66,76l33.9-18.56,80.34,44ZM40,90l80,43.78v85.79L40,175.82Zm176,85.78h0l-80,43.79V133.82l32-17.51V152a8,8,0,0,0,16,0V107.55L216,90v85.77Z"
-              ></path>
-            </svg>
-            <p class="features-title">
-              <strong>Package Design</strong>
-            </p>
-            <p class="features-text">
-              Our package design services ensure that your product packaging
-              stands out on the shelves with creative and compelling designs.
-            </p>
-          </div>
+        <div class="hero-img-box">
+          <img src="./img/gallery/hero.png  " alt="Photo" class="hero-image" />
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="testimonial-section">
-        <div class="grid-3-cols">
-          <img src="customers.jpg" alt="People sitting on chairs" />
-          <div class="testimonial-box">
-            <h2>"We couldn't live without these chairs anymore"</h2>
-            <blockquote class="testimonial-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              repellat at, nesciunt quia cum minima ipsum culpa totam sapiente
-              recusandae earum debitis doloribus in quasi voluptatibus!
-            </blockquote>
-            <p class="testimonial-author">&mdash; Mary and Sarah Johnson</p>
-          </div>
+    <section class="section-featured">
+      <div class="container">
+        <h2 class="heading-featured-in">As featured in</h2>
+        <div class="logos">
+          <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
+          <img
+            src="img/logos/business-insider.png"
+            alt="Business Insider logo"
+          />
+          <img
+            src="img/logos/the-new-york-times.png"
+            alt="The New York Times logo"
+          />
+          <img src="img/logos/forbes.png" alt="Forbes logo" />
+          <img src="img/logos/usa-today.png" alt="USA Today logo" />
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <h2>Our bestselling chairs</h2>
-        <div class="grid-3-cols">
-          <figure class="chair">
-            <img src="chair-1.jpg" alt="Chair" />
-            <div class="chair-box">
-              <h3>The Laid Back</h3>
-              <ul class="chair-details">
-                <li>
-                  <!-- Span is a generic INLINE text element, it doesn't have any meaning. It's like a div element, but inline -->
-                  <span>Leisure and relaxing</span>
-                </li>
-                <li>
-                  <span>Comfortable for 4h</span>
-                </li>
-                <li>
-                  <span>Vegan leather</span>
-                </li>
-                <li>
-                  <span>Weighs 16 kg</span>
-                </li>
-              </ul>
-              <div class="chair-price">
-                <strong>250€</strong>
-                <a href="#" class="btn btn--small">Add to cart</a>
-              </div>
+    <!-- SECTION HOW IT WORKS -->
+    <section class="section-how">
+      <div class="container">
+        <span class="subheading">How it works</span>
+        <h2 class="heading-secondary">
+          Bring your vision to life in 3 simple steps
+        </h2>
+      </div>
+
+      <div class="container grid grid--2-cols grid--center-v">
+        <!-- STEP 01 -->
+        <div class="step-text-box">
+          <p class="step-number">01</p>
+          <h3 class="heading-tertiary">Submit Your Design Brief</h3>
+          <p class="step-description">
+            Start by telling us about your project! Provide details about your
+            brand, your design preferences, and the goals of your project. Our
+            intuitive online form makes it easy to outline your vision and
+            submit any necessary files.
+          </p>
+        </div>
+        <div class="step-img-box">
+          <img
+            src="img/app/app-screen-1.png"
+            class="step-img"
+            alt="iPhone app
+            preferences selection screen"
+          />
+        </div>
+
+        <!-- STEP 02 -->
+        <div class="step-img-box">
+          <img
+            src="img/app/app-screen-2.png"
+            class="step-img"
+            alt="iPhone app
+            meal approving plan screen"
+          />
+        </div>
+        <div class="step-text-box">
+          <p class="step-number">02</p>
+          <h3 class="heading-tertiary">Review and Revise</h3>
+          <p class="step-description">
+            After reviewing your brief, we'll present initial concepts. You can
+            review these and provide feedback. We offer revisions to fine-tune
+            the designs to ensure they perfectly align with your expectations.
+          </p>
+        </div>
+
+        <!-- STEP 03 -->
+        <div class="step-text-box">
+          <p class="step-number">03</p>
+          <h3 class="heading-tertiary">Finalize and Receive Your Designs</h3>
+          <p class="step-description">
+            Once you are satisfied with the final revisions, we will finalize
+            your design. You'll receive high-resolution files in various
+            formats, ready for digital or print use. Achieve the impact you
+            desire with professionally crafted designs.
+          </p>
+        </div>
+        <div class="step-img-box">
+          <img
+            src="img/app/app-screen-3.png"
+            class="step-img"
+            alt="iPhone app
+            delivery screen"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PRICING -->
+    <section class="section-pricing">
+      <div class="container">
+        <span class="subheading">Pricing</span>
+        <h2 class="heading-secondary">
+          Designing well without breaking the bank
+        </h2>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Basic</p>
+              <p class="plan-price"><span>$</span>499</p>
+              <p class="plan-text">Perfect for small projects!</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>1 Logo Design</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>4 Logo Mockups</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                <span>Revisions</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                <span>Social Media Branding</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                <span>Signage Design</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--big">Get Started</a>
             </div>
-          </figure>
+          </div>
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Premium</p>
+              <p class="plan-price"><span>$</span>999</p>
+              <p class="plan-text">Best for growing business!</p>
+            </header>
 
-          <figure class="chair">
-            <img src="chair-2.jpg" alt="Chair" />
-            <div class="chair-box">
-              <h3>The Worker Bee</h3>
-              <ul class="chair-details">
-                <li>
-                  <span>Work</span>
-                </li>
-                <li>
-                  <span>Comfortable for 8h</span>
-                </li>
-                <li>
-                  <span>Vegan leather</span>
-                </li>
-                <li>
-                  <span>Weighs 22 kg</span>
-                </li>
-              </ul>
-              <div class="chair-price">
-                <strong>525€</strong>
-                <a href="#" class="btn btn--small">Add to cart</a>
-              </div>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>2 Logo Designs</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>6 Logo Mockups</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Revisions</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Social Media Branding</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Signage Design</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--big">Upgrade Now</a>
             </div>
-          </figure>
-
-          <figure class="chair">
-            <img src="chair-3.jpg" alt="Chair" />
-            <div class="chair-box">
-              <h3>The Chair 4/2</h3>
-              <ul class="chair-details">
-                <li>
-                  <span>Leisure and relaxing</span>
-                </li>
-                <li>
-                  <span>Comfortable all day!</span>
-                </li>
-                <li>
-                  <span>Organic cotton</span>
-                </li>
-                <li>
-                  <span>Weighs 80 kg</span>
-                </li>
-              </ul>
-              <div class="chair-price">
-                <strong>1450€</strong>
-                <a href="#" class="btn btn--small">Add to cart</a>
-              </div>
-            </div>
-          </figure>
+          </div>
         </div>
-      </section>
+      </div>
 
-      <footer>
-        Copyright &copy; 2027 by Jonas Schmedtmann. Part of "Build Responsive
-        Real-World Websites with HTML and CSS" online course. Use for learning
-        purposes only.
-      </footer>
-    </div>
+      <div class="container grid">
+        <aside class="plan-details">
+          Prices include all applicable taxes. You can cancel at any time. Both
+          plans include the following:
+        </aside>
+      </div>
+
+      <!-- OUR SERVICES -->
+      <div class="container grid grid--4-cols">
+        <div class="feature">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="features-icon"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM88,160a8,8,0,1,1-8,8A8,8,0,0,1,88,160ZM48,48H80v97.38a24,24,0,1,0,16,0V115.31l48,48V208H48ZM208,208H160V160a8,8,0,0,0-2.34-5.66L96,92.69V48h32V72a8,8,0,0,0,2.34,5.66l16,16A23.74,23.74,0,0,0,144,104a24,24,0,1,0,24-24,23.74,23.74,0,0,0-10.34,2.35L144,68.69V48h64V208ZM168,96a8,8,0,1,1-8,8A8,8,0,0,1,168,96Z"
+            ></path>
+          </svg>
+          <p class="features-title"><strong>Branding</strong></p>
+          <p class="features-text">
+            Build a strong brand identity with our comprehensive branding
+            services. We offer strategic brand development to set your business
+            apart.
+          </p>
+        </div>
+
+        <div class="feature">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="features-icon"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M192,96a40,40,0,0,0-24-72H96A40,40,0,0,0,72,96a40,40,0,0,0,1.37,65A44,44,0,1,0,144,196V160a40,40,0,1,0,48-64Zm0-32a24,24,0,0,1-24,24H144V40h24A24,24,0,0,1,192,64ZM72,64A24,24,0,0,1,96,40h32V88H96A24,24,0,0,1,72,64Zm24,88a24,24,0,0,1,0-48h32v48H96Zm32,44a28,28,0,1,1-28-28h28Zm40-44a24,24,0,1,1,24-24A24,24,0,0,1,168,152Z"
+            ></path>
+          </svg>
+          <p class="features-title">
+            <strong>Logo Design</strong>
+          </p>
+          <p class="features-text">
+            We specialize in creating unique and impactful logos that represent
+            your brand's identity.
+          </p>
+        </div>
+
+        <div class="feature">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="features-icon"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M223.68,66.15,135.68,18a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32l80.34,44-29.77,16.3-80.35-44ZM128,120,47.66,76l33.9-18.56,80.34,44ZM40,90l80,43.78v85.79L40,175.82Zm176,85.78h0l-80,43.79V133.82l32-17.51V152a8,8,0,0,0,16,0V107.55L216,90v85.77Z"
+            ></path>
+          </svg>
+          <p class="features-title">
+            <strong>Package Design</strong>
+          </p>
+          <p class="features-text">
+            Our package design services ensure that your product packaging
+            stands out on the shelves with creative and compelling designs.
+          </p>
+        </div>
+
+        <div class="feature">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="features-icon"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+            ></path>
+          </svg>
+          <p class="features-title">
+            <strong>Menu and Signs Designs</strong>
+          </p>
+          <p class="features-text">
+            Elevate your brand with our comprehensive design services. From
+            captivating menu designs to eye-catching signs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="container grid grid--4-cols">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="logo"
+              alt="Donia Design logo"
+              src="img/logos/donia_logo.png"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by Donia Design, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p>
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@omnifood.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Donia Design</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
